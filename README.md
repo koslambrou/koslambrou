@@ -1,16 +1,41 @@
-### Hi there 👋
+### Hi there 👋, I'm koslambrou, a Haskeller, Nix contributor and free software advocate from Quebec.
 
-<!--
-**koslambrou/koslambrou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently working as a Linked Open Data Engineer at <a href="https://www.cinematheque.qc.ca">Cinémathèque québécoise</a>.
 
-Here are some ideas to get you started:
+### A little more about me in RDF...
+```turtle
+@prefix gh: <https://github.com/> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix db: <https://dbpedia.org/resource/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+gh:koslambrou a foaf:Person ;
+  dbo:language db:Haskell_(programming_language) ;
+  dbo:language db:Python_(programming_language) ;
+  dbo:language db:Javascript ;
+  dbo:language db:Nix_package_manager ;
+
+  # Semantic web technologies
+  dbo:language db:Resource_Description_Framework ;
+  dbo:language db:SPARQL ;
+  dbo:language db:SHACL ;
+  dbo:language db:Web_Ontology_Language ;
+
+  gh:tool db:React_(JavaScript_library) ;
+  gh:tool db:Redux_(JavaScript_library) ;
+  gh:tool db:Node.js ;
+  gh:tool db:Express.js ;
+  gh:tool db:Apache_Spark ;
+
+  gh:os db:NixOS ;
+  gh:os db:Debian ;
+
+  gh:realisation "http://data.cinematheque.qc.ca" ;
+  gh:realisation "http://data.cinematheque.qc.ca/dataviz/polyscc" ;
+  gh:realisation "https://www.antoinebeland.com/inf8808" ;
+.
+```
+
+### Gitlab
+
+See my <a href="https://gitlab.com/koslambrou">Gitlab account</a> for other projects I'm contributing.
