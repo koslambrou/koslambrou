@@ -1,6 +1,6 @@
-### Hi there 👋, I'm koslambrou, a Haskeller, Nix contributor and free software advocate from Quebec.
+### Hi there 👋, I'm koslambrou, a Haskeller, Nix contributor and free software enthusiast from Quebec.
 
-Currently working as a Linked Open Data Engineer at <a href="https://www.cinematheque.qc.ca">Cinémathèque québécoise</a>.
+Currently working full-time as a Software Engineer at <a href="https://iohk.io">IO Global</a> and part time as a Linked Open Data Engineer at <a href="https://www.cinematheque.qc.ca">Cinémathèque québécoise</a>.
 
 ### A little more about me in RDF...
 ```turtle
